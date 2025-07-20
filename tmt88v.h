@@ -18,9 +18,9 @@ private:
     // Font style and scale settings
 
         
-    int font_style_index = 1;  // Smallest base font by default (Font B)
+    int font_style_index = 0;  // Smallest base font by default (Font B)
     // font_style_index: 0 = Font B (smaller), 1 = Font A (normal)
-    int font_scale_index = 3;  // Normal size (1x scale)
+    int font_scale_index = 0;  // Normal size (1x scale)
     // font_scale_index: 0=1x, 1=2x, 2=3x, 3=4x magnification
     //0,0 is the smallest font size, at that size page width is 56 characters.
 
